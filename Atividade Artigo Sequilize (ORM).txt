@@ -1,0 +1,34 @@
+Nomes: João Vitor Silva/Matheus Abriz Rios Ayavari
+
+
+-Qual o objetivo desse artigo?
+R: O artigo tem como objetivo analisar e documentar os impactos que o Sequelize traz para o desenvolvimento de uma API feita em Node com Express.
+ 
+-Qual metodologia os autores utilizaram?
+R: A metodologia utilizada foi a pesquisa bibliográfica exploratória e experimental.
+ 
+- O que é um CRUD?
+R: O CRUD é uma sigla para as funções mais importantes e conhecidas no mundo de desenvolvimento: O Create(criar novas informações e guardá-las), Read(realizar a leitura dessas informações criadas anteriormente), Update(Atualizar essas informações, caso seja necessário) e Delete(deletar informações caso necessário).
+ 
+-Explique o que é o NodeJS, Express, ORM e Sequilize de acordo com o artigo:
+R: Nodejs é um ambiente JavaScript, produzido principalmente para resolver problemas de arquitetura bloqueantes, ou seja, antigamente os sistemas esperavam uma resposta para continuar o processamento, enquanto o Node traria a ideia de fazer o sistema de forma assíncrona, então o processamento de dados continuaria mesmo esperando uma resposta. Já o Express é um web framework que facilita o desenvolvimento em Node, pois um problema muito comum enfrentado por desenvolvedores em Node era a questão de solicitações HTTP com 'require'. Com o Express, as requisições ficaram mais simples, além de utilizar tecnologias de roteamento e middleware que permitem uma versatilidade muito maior para o desenvolvedor. ORM é uma técnica de mapeamento objeto relacional que facilita a comunicação entre POO e bancos de dados relacionais, pois permite a conversão de bancos relacionais em objetos e vice-versa. Isso permite que o desenvolvedor se preocupe com menos uma etapa durante o desenvolvimento, resultando assim em uma otimização do tempo e da produtividade. O Sequelize é um ORM baseado em promises(ou seja, programação assíncrona como explicado anteriormente). O Sequelize também pode realizar o CRUD utilizando métodos JavaScript, permitindo assim conversar diretamente com o BD, facilitando o desenvolvimento.
+ 
+ 
+-Descreva sua experiência em ler um artigo científico e fazer um fichamento orientado pelas questões elaborado pelo professor; foi fácil compreender o artigo?; você acha que suas experiências com desenvolvimento de software é possível escrever um artigo semelhante com tecnologias e diferentes ideias (usar JavaScript com NodeJS e frameworks e padrões como fazemos no laboratório.
+R: O artigo não foi difícil de compreender, pois envolveram tecnologias e um dialeto que já conhecíamos. Nós acreditamos que sim, seria possível desenvolver um artigo semelhante mas com uma ideia diferente, porém precisaríamos de orientação para entendermos profundamente o processo da criação de um artigo científico.
+ 
+-Se gostou da ideia de escrever um artigo, qual tema gostaria de desenvolver uma pesquisa utilizando JavaScript em alguma aplicação? - escolha mais 2 pessoas que gostaria de ter um artigo científico na área de tecnologia.
+R: Nós gostaríamos de desenvolver uma API para o CPS, em que seria possível verificar se o aluno está cadastrado em uma Fatec por intermédio da utilização do RA. Nessa API também teria uma autenticação para professores, que seria gerado uma assinatura virtual automática para ele, juntamente com um token pessoal para garantir a confiabilidade e segurança.
+
+-Qual a conclusão que os autores chegaram na escolha dessa tecnologia em resultados e discussão?
+
+R:Os autores concluíram que a escolha das tecnologias Node.js, Express.js, e Sequelize foi extremamente eficaz para o desenvolvimento da API do sistema "Dentist Control". Essas tecnologias foram selecionadas por sua baixa curva de aprendizado, alto desempenho e a facilidade de manutenção que oferecem. O Sequelize, em particular, facilitou o mapeamento de dados relacionais e aumentou a produtividade, permitindo a criação, modificação e remoção de dados diretamente pelo código, sem a necessidade de um Sistema de Gerenciamento de Banco de Dados (SGBD) externo.
+
+-Faça uma descrição do resultado obtido na aplicação do framework.
+
+R:Com a aplicação do Sequelize, foi possível criar e gerenciar o banco de dados diretamente pelo código da aplicação, o que resultou em um aumento significativo de produtividade. O uso de migrations permitiu versionar o banco de dados de forma semelhante ao GIT, simplificando a manutenção e atualização da base de dados. Além disso, o Sequelize facilitou o gerenciamento de modelos de dados, relacionamentos entre tabelas, e a execução de operações CRUD, contribuindo para a eficiência no desenvolvimento da API.
+
+
+-O quê os autores conseguiram concluir com esse estudo realizado neste artigo?
+
+R:Os autores concluíram que o uso do Sequelize como um ORM (Object-Relational Mapper) no desenvolvimento de uma API em Node.js, utilizando Express.js, trouxe várias vantagens, incluindo a simplicidade, a redução de complexidade e o baixo custo de manutenção do sistema. Eles destacam que o Sequelize é um facilitador poderoso que, quando bem compreendido e aplicado, pode reduzir significativamente o tempo de desenvolvimento de uma aplicação e melhorar a manutenção do código, tornando-se uma excelente escolha para desenvolvedores de diferentes níveis de experiência.
